@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mario Bros</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Mukta:wght@300;700&display=swap">   
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="box-mario-luigi">
+    <video src="images/video.mp4" autoplay muted loop></video>
+    <div class="mask-video"></div>
+  </div>
+
+  <div class="box-left">
+    <img src="images/logo.png" alt="logo do mario bros" class="logo" />
+    <p>Encanadores Mario & Luigi - Resolvendo Seus Problemas Com Estilo!</p>
+    <p>Você já se encontrou em uma situação de emergência com encanamento? Vazamentos inesperados, canos entupidos ou
+      torneiras que não param de pingar? Não se preocupe, porque estamos aqui para salvar o dia! Apresentamos a você os
+      encanadores mais famosos do Reino dos Cogumelos - Mario e Luigi!</p>
+    <button class="btn" onclick="appenerForm()">Fale conosco</button>
+  </div>
+
+  <img src="images/mario.png" alt="imagem mario e luigi" class="img-mario-luigi" />
+
+  <form class="form" action="https://formsubmit.co/paulogilvan@hotmail.com" method="POST">
+    <label>Fale Conosco</label>
+    <input type="text" placeholder="Nome" name="nome" required />
+    <input type="tel" placeholder="Telefone" name="telefone" required />
+    <textarea class="textArea" placeholder="O que podemos te ajudar?" name="info"></textarea>
+    <button onclick="hideForm()">Enviar</button>
+  </form>
+
+  <div class="mask-form"></div>
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
