@@ -100,3 +100,20 @@ textarea {
   z-index: 3;
   background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
 }
+
+@media screen and (min-width: 430px) and (max-width: 800px) {
+    .box-left {
+      display: grid;
+      margin-right: 120px;
+    }
+    .img-mario-luigi {
+      display: none;
+    }
+}
+
+@media screen and (min-width: 800px) {
+  .img-mario-luigi {
+    width: 45%;
+    height: auto;
+  }
+}
