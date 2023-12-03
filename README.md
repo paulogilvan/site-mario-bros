@@ -1,8 +1,6 @@
 <h1>Projeto Mario & Luigi</h1>
 
-Link:<a href="https://paulogilvan.github.io/site-mario-bros/">mario&luigi</a>
 
-#
 
 <h4>Tecnologias usadas:</h4>
 
@@ -12,3 +10,10 @@ Link:<a href="https://paulogilvan.github.io/site-mario-bros/">mario&luigi</a>
   JS<img align="center" alt="Paulo-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
 </div>
  
+#
+
+Link do projeto: <a href="https://paulogilvan.github.io/site-mario-bros/">mario&luigi</a>
+
+<img src="https://github.com/paulogilvan/site-mario-bros/blob/master/images/img-mariobros.png?raw=true" />
+
+<img src="https://github.com/paulogilvan/site-mario-bros/blob/master/images/img-form-mariobros.png?raw=true" />
